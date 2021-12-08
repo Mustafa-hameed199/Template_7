@@ -74,18 +74,13 @@ $(function() {
     function progressF() {
         $('.about-me .skill__percent').each(function () {
             let num =  $(this).data('num');
-            let start = 0;
 
             if ( $(window).scrollTop() > $(".skills__list").offset().top - 600 ) {
-                let inter = setInterval(() => {
-                $(this).parent().next().find('span').width(start++ + '%');
-                    if (parseInt(start) == parseInt(num) ) {
-                        clearInterval(inter)
-                    }
-                })
+                $(this).parent().next().find('span').width(num);
             }
         })
     }
+    
     $(window).on('scroll', progressF);
     progressF()
 })

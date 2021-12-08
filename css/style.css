@@ -372,8 +372,9 @@ header {
     left: 0;
     top: 0;
     height: 100%;
+    width: 0%;
     background:black;
-    transition: 1s ease-in-out;
+    transition: 1s .5s ease-in-out;
 }
 
 .about-me__card {
