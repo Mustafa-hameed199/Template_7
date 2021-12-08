@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-----  Font     ~~~~~~~~~~~~~~~~ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Architects+Daughter&family=Balsamiq+Sans:ital,wght@0,400;0,700;1,700&family=Cairo:wght@300;400;700&family=Kanit:wght@100;200;300;500&family=M+PLUS+1+Code:wght@200;300;400;500;600;700&family=Permanent+Marker&family=Source+Sans+Pro:wght@200;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-----   CSS files     ~~~~~~~~~~~~~~~~ -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-----   JS file     ~~~~~~~~~~~~~~~~ -->
+    <script src="js/main.js" defer></script>
+    <title>Stimulus Template 7</title>
+  </head>
+  <body>
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-----  Header     ~~~~~~~~~~~~~~~~ -->
+    <header>
+      <nav class="nav">
+        <div class="nav__container">
+          <span class="nav__logo"> stimulus </span>
+
+          <div class="links__container">
+            <div class="nav__bars-icon">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+
+            <ul class="nav__ul">
+              <li><a href="#" data-scroll="home" class="active">home</a></li>
+              <li><a href="#" data-scroll="about-me">about me</a></li>
+              <li><a href="#" data-scroll="expert">experiences</a></li>
+              <li><a href="#" data-scroll="testimonial">testimonial</a></li>
+              <li><a href="#" data-scroll="contact">contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  Main (Home)     ~~~~~~~~~~~~~~~~ -->
+    <main class="home sec" id="home">
+      <div class="home__container">
+        <div class="home__img"></div>
+
+        <div class="home__content">
+          <div class="home__text">
+            <h4 class="home__welcome content-to-reveal un-reveal">
+              welcome to my website
+            </h4>
+            <h1 class="home__title content-to-reveal un-reveal">
+              Hello, I am <span>Stimulus</span> currently based in New York
+              city.
+            </h1>
+
+            <p class="home__desc content-to-reveal un-reveal">
+              Donec auctor arcu at efficitur lacinia. Praesent bibendum
+              efficitur ipsum, et mattis tellus interdum in. Ut a dictum purus.
+              Vestibulum non pellentesque felis, sed dignissim urna. Vestibulum
+              id accumsan quam.
+            </p>
+
+            <a
+              href="#"
+              class="home__btn content-to-reveal un-reveal"
+              data-scroll="about-me"
+              >get started</a
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  About Me     ~~~~~~~~~~~~~~~~ -->
+    <section class="about-me sec content-to-reveal" id="about-me">
+      <div class="about-me__container">
+        <div class="about-me__up-row">
+          <div class="about-me__content">
+            <h2 class="content__title content-to-reveal un-reveal">
+              Donec auctor
+            </h2>
+            <h3 class="content__mini-title content-to-reveal un-reveal">
+              Sed vulputate vitae diam quis bibendum
+            </h3>
+            <div class="content__desc content-to-reveal un-reveal">
+              <p>
+                Phasellus vulputate tellus nec tortor varius elementum.
+                Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis
+                eu, iaculis congue sem. Mauris convallis eros massa.
+              </p>
+              <p>
+                Quisque viverra iaculis aliquam. Etiam volutpat, justo non
+                aliquam bibendum, sem nibh mollis erat, quis porta odio odio at
+                velit.
+              </p>
+            </div>
+          </div>
+
+          <div class="about-me__img"></div>
+
+          <div class="about-me__skills">
+            <h2 class="skills__title content-to-reveal un-reveal">My Skills</h2>
+            <h3 class="skills__mini-title content-to-reveal un-reveal">
+              Photoshop . HTML CSS JS . Web Design
+            </h3>
+
+            <ul class="skills__list content-to-reveal un-reveal">
+              <li class="skills__skill">
+                <div class="skill__text">
+                  <span class="skill__name">frontend design</span
+                  ><span class="skill__percent" data-num="90%">90%</span>
+                </div>
+                <div class="skill__progress"><span></span></div>
+              </li>
+
+              <li class="skills__skill">
+                <div class="skill__text">
+                  <span class="skill__name">backend processing</span
+                  ><span class="skill__percent" data-num="70%">70%</span>
+                </div>
+                <div class="skill__progress"><span></span></div>
+              </li>
+
+              <li class="skills__skill">
+                <div class="skill__text">
+                  <span class="skill__name">html5 & css</span
+                  ><span class="skill__percent" data-num="80%">80%</span>
+                </div>
+                <div class="skill__progress"><span></span></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="about-me__down-row">
+          
+          <div class="about-me__card">
+            <div class="about-me__card-content content-to-reveal un-reveal">
+              <div class="card__icon"><i class="fas fa-desktop"></i></div>
+              <h3 class="card__name">interface design</h3>
+              <p class="card__desc">
+                Phasellus vulputate tellus nec tortor varius elementum.
+                Curabitur at pulvinar ante.
+              </p>
+            </div>
+          </div>
+
+          <div class="about-me__card">
+            <div class="about-me__card-content content-to-reveal un-reveal">
+              <div class="card__icon"><i class="fas fa-paper-plane"></i></div>
+              <h3 class="card__name">media strategy</h3>
+              <p class="card__desc">
+                Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis
+                eu, iaculis congue sem.
+              </p>
+            </div>
+          </div>
+
+          <div class="about-me__card">
+            <div class="about-me__card-content content-to-reveal un-reveal">
+              <div class="card__icon"><i class="fas fa-tablet"></i></div>
+              <h3 class="card__name">mobile app</h3>
+              <p class="card__desc">
+                Mauris convallis eros massa, vitae euismod arcu tempus ut.
+                Quisque viverra iaculis.
+              </p>
+            </div>
+          </div>
+
+          <div class="about-me__card">
+            <div class="about-me__card-content content-to-reveal un-reveal">
+              <div class="card__icon"><i class="fab fa-html5"></i></div>
+              <h3 class="card__name">coding</h3>
+              <p class="card__desc">
+                Mauris convallis eros massa, vitae euismod arcu tempus ut.
+                Quisque viverra iaculis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  Experiences     ~~~~~~~~~~~~~~~~ -->
+    <section class="expert sec" id="expert">
+      <div class="expert__container">
+        <div class="expert__cards-up">
+          <div class="expert__img"></div>
+
+          <div class="expert__content">
+            <div class="expert__titles content-to-reveal un-reveal">
+              <h2>my experiences</h2>
+              <p>Previous companies and my tasks</p>
+            </div>
+
+            <div class="expert__work-place">
+              <div class="expert__text-container content-to-reveal un-reveal">
+                <div class="expert__icon"><i class="fas fa-laptop"></i></div>
+                <div class="expert__text">
+                  <h3 class="expert__title-job">graphic designer <span> 2014 Jul - 2015 Sep </span></h3>
+                  <p class="expert__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+              </div>
+
+              <div class="expert__text-container content-to-reveal un-reveal">
+                <div class="expert__icon"><i class="fas fa-laptop"></i></div>
+                <div class="expert__text">
+                  <h3 class="expert__title-job"> web designer <span>  2015 Oct - 2017 Jan </span></h3>
+                  <p class="expert__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="expert__cards-down">
+        
+
+          <div class="expert__content">
+            <div class="expert__titles content-to-reveal un-reveal">
+              <h2>my education</h2>
+              <p>In cursus orci non ipsum gravida dignissim</p>
+            </div>
+
+            <div class="expert__work-place">
+              <div class="expert__text-container content-to-reveal un-reveal">
+                <div class="expert__icon"><i class="fas fa-laptop"></i></div>
+                <div class="expert__text">
+                  <h3 class="expert__title-job"> master in design <span> 2012 Jan - 2014 May </span></h3>
+                  <p class="expert__desc">Etiam iaculis elit in mauris ullamcorper auctor. Proin a sapien id orci ullamcorper dignissim eu in neque.</p>
+                </div>
+              </div>
+
+              <div class="expert__text-container content-to-reveal un-reveal">
+                <div class="expert__icon"><i class="fas fa-laptop"></i></div>
+                <div class="expert__text">
+                  <h3 class="expert__title-job"> bachelor of arts <span>  2008 May - 2011 Dec </span></h3>
+                  <p class="expert__desc">Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="expert__img"></div>
+        </div>
+      </div>
+    </section>
+      <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  Testimonial   ~~~~~~~~~~~~~~~~ -->
+      <section class="rate sec" id='testimonial'>
+        <div class="rate__container">
+          <div class="rate__content">
+            <div class="rate__starts content-to-reveal un-reveal"><i class="fas fa-star"></i></div>
+            <h2 class="rate__text content-to-reveal un-reveal">Proin lobortis eu diam et facilisis. Fusce nisi nibh, molestie in vestibulum quis, auctor et orci.</h2>
+            <p class="rate__desc content-to-reveal un-reveal">Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem.</p>
+          </div>
+        </div>
+      </section>
+      <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  Contact   ~~~~~~~~~~~~~~~~ -->
+      <section class="sec" id='contact'>
+        <div class="contact__container">
+          <div class="contact__form">
+              <div class="contact__welcome content-to-reveal un-reveal">
+                <h2>Say hello..</h2>
+                <p>Integer ut consectetur est. In cursus orci non ipsum gravida dignissim.</p>
+              </div>
+            <form>
+              <input type="text" class="contact__name-input content-to-reveal un-reveal" placeholder='Your Name'>
+              <input type="email" class="contact__email-input content-to-reveal un-reveal" placeholder='Your Email'>
+              <textarea class="contact__message-input content-to-reveal un-reveal" placeholder='Write your message...'></textarea>
+              <input type="submit" class="contact__sub-input content-to-reveal un-reveal" value='Send'>
+            </form>
+          </div>
+
+          <div class="contact__info">
+            <div class="contact__img"></div>
+
+            <div class="contact__addresses">
+              <div class="contact__office content-to-reveal un-reveal">
+                <h2>Visit my office</h2>
+                <p>456 New Street 22000, New York City, USA</p>
+              </div>
+              <div class="contact__address content-to-reveal un-reveal">
+                <h2>contact.</h2>
+                <address>
+                  <p> <i class="fas fa-phone-alt"></i> 01-0110-0220</p>
+                  <p> <i class="far fa-envelope"></i> <a href="#">hello@company.co</a></p>
+                  <p> <i class="fas fa-globe-asia"></i> <a href="#">company.co</a></p>
+                </address>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  Footer  ~~~~~~~~~~~~~~~~ -->
+      <footer>
+        <div class="footer__container content-to-reveal un-reveal">
+          <p>Copyright © 2016 Your Company | Design: <a href="https://templatemo.com/">templatemo</a> </p>
+          <ul class="footer__contact">
+            <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="index.html"><i class="fab fa-google-plus-g"></i></a></li>
+            <li><a href="index.html"><i class="fab fa-dribbble"></i></a></li>
+            <li><a href="index.html"><i class="fab fa-linkedin-in"></i></a></li>
+          </ul>
+        </div>
+      </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
