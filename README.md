@@ -5,4 +5,4 @@
 ## Technologies Used 
 * HTML
 * CSS
-* JQUERy
+* JQUERY
