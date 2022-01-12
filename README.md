@@ -1,3 +1,3 @@
 # Stimulus
 
-![website view ]("/images/Stimulus Template cut 1.png")
+![website view ](https://github.com/Mustafa-hameed199/Template_7/blob/main/images/Stimulus%20Template%20cut%201.png?raw=true) ![website view ](https://github.com/Mustafa-hameed199/Template_7/blob/main/images/Stimulus%20Template%20cut%202.png?raw=true)
