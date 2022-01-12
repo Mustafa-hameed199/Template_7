@@ -5,7 +5,6 @@
         --main_red_clr: #E9724C;
         --main_black_clr: #161616;
         --home_bgd_clr:#F1E2D7;
-
     }
 /*~~~~~~~~~~  Variables  ~~~~~~~~~~~~  } */
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  Elements to show  ~~~~~~~~~~~~  { */
@@ -46,7 +45,6 @@ p {
     color: var(--paragraph_clr);
     font-weight: 300;
 }
-
 h1,
 h2,
 h3,
@@ -89,13 +87,11 @@ header {
 .nav__bars-icon {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-content: space-between;
-    gap: 5px;
+    justify-content: space-between;
     overflow: hidden;
     background: white;
     width: 25px;
-    height: 25px;
+    height: 20px;
     cursor: pointer;
 }
 
@@ -107,17 +103,21 @@ header {
     height: 2px;
     opacity: 1;
 }
-
-.nav__bars-icon span:nth-child(1) { transform-origin:  left top } 
-.nav__bars-icon.animate span:nth-child(1) { transform: rotate(45deg) translatey(-2px) }
-
 .nav__bars-icon.animate span:nth-child(2) {
     transform: translatex(100%);
     opacity: 0;
 }
 
-.nav__bars-icon span:nth-child(3) { transform-origin: left bottom } 
-.nav__bars-icon.animate span:nth-child(3) { transform: rotate(-45deg) translatey(2px) }
+.nav__bars-icon span:nth-child(1) {
+    --x : 45deg; 
+    transform-origin: top left;
+} 
+.nav__bars-icon.animate span { transform: rotate(var(--x)) }
+
+.nav__bars-icon span:nth-child(3) {
+    --x : -45deg; 
+    transform-origin: bottom left;
+} 
 
 .nav__ul {
     width: 100%;

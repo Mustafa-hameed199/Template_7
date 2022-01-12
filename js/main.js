@@ -85,7 +85,6 @@ $(function() {
     progressF()
 })
 
-
 ///////////////////////////////////////////////// Observer tracker elements  //////////////////
 let options = {
     root:null,
@@ -97,7 +96,7 @@ let observer = new IntersectionObserver(scrollTo, options)
 
 function scrollTo(entries) {
     entries.forEach( el => {
-        if(el.isIntersecting) {
+        if (el.isIntersecting) {
             el.target.classList.add('reveal');
             setTimeout( () => {
                 el.target.classList.remove('un-reveal')
